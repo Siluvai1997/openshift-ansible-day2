@@ -85,3 +85,6 @@ To test safely:
 │   └── cleanup/
 └── README.md
 ```
+
+## High-Level Project Workflow 
+![High-Level Project Workflow](./Project-overview-HighLevel-Workflow.png)
