@@ -1,0 +1,4 @@
+---
+- name: Simulate cluster patching
+  debug:
+    msg: "Cluster patching would be triggered here (e.g., oc adm upgrade)"

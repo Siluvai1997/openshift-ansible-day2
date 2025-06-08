@@ -1,0 +1,8 @@
+---
+- name: Upgrade OpenShift Cluster
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Perform cluster upgrade (simulated)
+      include_role:
+        name: patching

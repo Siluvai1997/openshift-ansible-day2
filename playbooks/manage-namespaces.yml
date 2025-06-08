@@ -1,0 +1,8 @@
+---
+- name: Manage OpenShift Namespaces
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Create and label namespaces
+      include_role:
+        name: namespace

@@ -1,0 +1,8 @@
+---
+- name: Apply RBAC policies
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Setup role bindings and roles
+      include_role:
+        name: rbac

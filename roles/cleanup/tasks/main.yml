@@ -1,0 +1,4 @@
+---
+- name: Simulate unused PVC cleanup
+  debug:
+    msg: "Would delete PVCs not bound to pods (simulated)"
